@@ -1,0 +1,50 @@
+/* Write CSS Here */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body {
+	background-color: rgb(252, 240, 247);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.full {
+	width: 40rem;
+	max-width: 1000px;
+	min-height: 100px;
+	background-color: rgb(252, 249, 246);
+	margin: 0px;
+	display: grid;
+	grid-template-columns: 6fr 7fr;
+}
+.left {
+	position: initial;
+	background-color: rgb(238, 251, 253);
+	padding: 3rem;
+
+}
+.right {
+	position: initial;
+	background-color: rgb(220, 240, 241);
+	padding: 2rem;
+	justify-content:space-around;
+
+}
+.image, .Contact, .Skills, .Language, .title,
+.Summary, .Experience, .Education, .project {
+	margin-bottom: 1rem;
+	text-align: justify;
+
+}
+
+.Contact a{
+	color: black;
+}
+
+.project a{
+	color: black;
+}
+
